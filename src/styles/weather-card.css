@@ -43,6 +43,14 @@
   transform: scale(1.1);
 }
 
+.weather__info .temp__cloud .change__button .bx {
+  transition: transform 100ms ease-in-out;
+}
+
+.weather__info .temp__cloud .change__button .bx:active {
+  transform: scale(0.8);
+}
+
 .temp__info {
   grid-row: 1 / -1;
   padding: 0 5px;
